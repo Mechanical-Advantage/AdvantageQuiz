@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "question": "What is the robot weight limit without bumpers and battery?",
+    "options": ["90 kg", "125 lb", "12 oz", "115 lb"],
+    "correct": 3,
+    "explanation": "The robot weight limit is 115 lbs, excluding bumpers, battery, and location tags.",
+    "category": "Robot",
+    "citation": {
+      "rule": "R103",
+      "section": "Section 8: ROBOT Construction Rules",
+      "excerpt": "R103: The ROBOT weight must not exceed 115.0lb (52.16kg)..."
+    }
+  },
+  {
+    "id": 2,
+    "question": "What is the maximum robot frame perimeter?",
+    "options": ["110in", "100in", "90m", "120cm"],
+    "correct": 0,
+    "explanation": "The ROBOT PERIMETER may not exceed 110 inches in starting configuration.",
+    "category": "Robot",
+    "citation": {
+      "rule": "R104",
+      "section": "Section 8: ROBOT Construction Rules",
+      "excerpt": "R104: A ROBOT'S STARTING CONFIGURATION may not have a ROBOT PERIMETER greater than 110.0in..."
+    }
+  },
+  {
+    "id": 3,
+    "question": "Which game piece is used in REBUILT?",
+    "options": ["NOTE", "CORAL", "FUEL", "CARGO"],
+    "correct": 2,
+    "explanation": "FUEL is the scoring element - a 5.91 inch diameter foam ball.",
+    "category": "Field",
+    "citation": {
+      "rule": "N/A",
+      "section": "Section 5.10.1: FUEL",
+      "excerpt": "A FUEL is a 5.91in (15.0cm) diameter, high density foam ball."
+    }
+  }
+]

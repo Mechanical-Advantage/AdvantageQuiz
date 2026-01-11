@@ -1,0 +1,716 @@
+[
+  {
+    "id": 1,
+    "question": "How much can the robot weigh minus bumpers and battery?",
+    "options": [
+      "90 kg",
+      "125 lb",
+      "12 oz",
+      "115 lb"
+    ],
+    "correct": 3,
+    "explanation": "The robot weight limit is 115 lbs, excluding bumpers, battery, and location tags.",
+    "category": "Robot",
+    "citation": {
+      "rule": "R103",
+      "section": "Section 8: ROBOT Construction Rules",
+      "excerpt": "R103: The ROBOT weight must not exceed 115.0lb (52.16kg). For the purposes of determining compliance with the weight limitations, the following items are excluded: A. ROBOT BUMPERS, B. ROBOT battery and its associated half of the Anderson cable..."
+    }
+  },
+  {
+    "id": 2,
+    "question": "How much can the robot weigh with bumpers?",
+    "options": [
+      "125 kg",
+      "135 lb",
+      "115 lb",
+      "120 lb"
+    ],
+    "correct": 1,
+    "explanation": "Total robot weight including bumpers must not exceed 135 lbs.",
+    "category": "Robot",
+    "citation": {
+      "rule": "R408",
+      "section": "Section 8: ROBOT Construction Rules",
+      "excerpt": "The total weight of the ROBOT (as described in R103) with BUMPERS must not exceed 135.0lb (61.23kg)."
+    }
+  },
+  {
+    "id": 3,
+    "question": "What is the maximum robot frame perimeter?",
+    "options": [
+      "110in",
+      "100in",
+      "90m",
+      "120cm"
+    ],
+    "correct": 0,
+    "explanation": "The ROBOT PERIMETER may not exceed 110 inches in starting configuration.",
+    "category": "Robot",
+    "citation": {
+      "rule": "R104",
+      "section": "Section 8: ROBOT Construction Rules",
+      "excerpt": "R104: A ROBOT'S STARTING CONFIGURATION may not have a ROBOT PERIMETER greater than 110.0in (2.794m)..."
+    }
+  },
+  {
+    "id": 4,
+    "question": "What is the starting height limit of the robot?",
+    "options": [
+      "3ft 6in",
+      "No limit",
+      "2ft 6in",
+      "1 Bluey tall"
+    ],
+    "correct": 2,
+    "explanation": "Robots cannot exceed 30 inches (2 ft 6 in) tall in starting configuration.",
+    "category": "Robot",
+    "citation": {
+      "rule": "R104",
+      "section": "Section 8: ROBOT Construction Rules",
+      "excerpt": "R104: ...may not be more than 30in (76.2cm) tall."
+    }
+  },
+  {
+    "id": 5,
+    "question": "True or False: The maximum vertical extension of a robot in teleop is the same as at the start of the match.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": 1,
+    "explanation": "TRUE - The 30-inch height limit applies during the entire match, not just starting configuration (R107).",
+    "category": "Robot",
+    "citation": {
+      "rule": "R107",
+      "section": "Section 8: ROBOT Construction Rules",
+      "excerpt": "R107: ROBOTS may not extend such that their total height exceeds 30.0in (76.2cm)."
+    }
+  },
+  {
+    "id": 6,
+    "question": "What is the horizontal extension limit of the robot?",
+    "options": [
+      "18in",
+      "1ft",
+      "9in",
+      "no limit"
+    ],
+    "correct": 1,
+    "explanation": "Robots may extend up to 12 inches (1 foot) horizontally beyond their ROBOT PERIMETER.",
+    "category": "Robot",
+    "citation": {
+      "rule": "R105",
+      "section": "Section 8: ROBOT Construction Rules",
+      "excerpt": "R105: ROBOTS may not extend more than 12in (30.48cm) beyond the vertical projection of their ROBOT PERIMETER."
+    }
+  },
+  {
+    "id": 7,
+    "question": "True or False: A robot can extend in all horizontal directions simultaneously during a match.",
+    "options": [
+      "False, the robot can only extend in two directions at a time",
+      "True",
+      "False, the robot can only extend in one direction at a time",
+      "Not sure"
+    ],
+    "correct": 2,
+    "explanation": "FALSE - Robots may only extend in ONE direction at a time (over one side of the ROBOT PERIMETER) per R106.",
+    "category": "Robot",
+    "citation": {
+      "rule": "R106",
+      "section": "Section 8: ROBOT Construction Rules",
+      "excerpt": "R106: ROBOTS may not extend beyond their ROBOT PERIMETER in more than one direction (i.e. over more than 1 side of the ROBOT) at a time."
+    }
+  },
+  {
+    "id": 8,
+    "question": "Which of this is NOT a zone located in the field?",
+    "options": [
+      "NEUTRAL ZONE",
+      "HUMAN LOADING AREA",
+      "ALLIANCE ZONE",
+      "OUTPOST AREA"
+    ],
+    "correct": 1,
+    "explanation": "The field has NEUTRAL ZONE, ALLIANCE ZONE, ALLIANCE AREA, and OUTPOST AREA. There is no HUMAN LOADING AREA.",
+    "category": "Field",
+    "citation": {
+      "rule": "N/A",
+      "section": "Section 5.3: Areas, Zones, & Markings",
+      "excerpt": "Field zones include: ALLIANCE AREA, ALLIANCE ZONE, NEUTRAL ZONE, and OUTPOST AREA."
+    }
+  },
+  {
+    "id": 9,
+    "question": "Which game piece is used in REBUILT?",
+    "options": [
+      "NOTE",
+      "CORAL",
+      "FUEL",
+      "CARGO"
+    ],
+    "correct": 2,
+    "explanation": "FUEL is the scoring element - a 5.91 inch diameter foam ball.",
+    "category": "Field",
+    "citation": {
+      "rule": "N/A",
+      "section": "Section 5.10.1: FUEL",
+      "excerpt": "A FUEL is a 5.91in (15.0cm) diameter, high density foam ball."
+    }
+  },
+  {
+    "id": 10,
+    "question": "Which field element receives scored FUEL and has exits that distribute it back to the field?",
+    "options": [
+      "TOWER",
+      "HUB",
+      "OUTPOST",
+      "DEPOT"
+    ],
+    "correct": 1,
+    "explanation": "The HUB is a 47x47 inch structure with a hexagonal opening at the top where FUEL is scored.",
+    "category": "Field",
+    "citation": {
+      "rule": "N/A",
+      "section": "Section 5.4: HUB",
+      "excerpt": "A HUB is one of two 47in by 47in rectangular prism structures with an extended opening at the top surface. Each HUB has a set of exits that randomly distributes FUEL into the NEUTRAL ZONE."
+    }
+  },
+  {
+    "id": 11,
+    "question": "Which field element do robots drive UNDERNEATH?",
+    "options": [
+      "BUMP",
+      "TOWER",
+      "TRENCH",
+      "OUTPOST"
+    ],
+    "correct": 2,
+    "explanation": "TRENCHES are 40.25 inches tall structures that robots drive underneath.",
+    "category": "Field",
+    "citation": {
+      "rule": "N/A",
+      "section": "Section 5.6: TRENCH",
+      "excerpt": "TRENCHES are a 65.65in wide, 47.0in deep, and 40.25in tall structure that ROBOTS drive underneath."
+    }
+  },
+  {
+    "id": 12,
+    "question": "Which field element has RUNGS that robots climb?",
+    "options": [
+      "HUB",
+      "TRENCH",
+      "TOWER",
+      "OUTPOST"
+    ],
+    "correct": 2,
+    "explanation": "The TOWER has three RUNGS (LOW, MID, HIGH) that robots climb for points.",
+    "category": "Field",
+    "citation": {
+      "rule": "N/A",
+      "section": "Section 5.8: TOWER",
+      "excerpt": "A TOWER is a structure made up of UPRIGHTS and RUNGS. The UPRIGHTS hold three horizontal RUNGS: LOW RUNG (27in), MID RUNG (45in), and HIGH RUNG (63in)."
+    }
+  },
+  {
+    "id": 13,
+    "question": "What set of actions during AUTO scores the most points during autos?",
+    "options": [
+      "Leave ROBOT STARTING LINE and score FUEL only",
+      "Climb the TOWER and score FUEL only",
+      "Leave ROBOT STARTING LINE, score FUEL, climb TOWER, and collect from DEPOT",
+      "Only stay still"
+    ],
+    "correct": 2,
+    "explanation": "During AUTO, robots can leave the ROBOT STARTING LINE, score FUEL, climb the TOWER, and retrieve FUEL from the DEPOT.",
+    "category": "Field",
+    "citation": {
+      "rule": "N/A",
+      "section": "Section 6.4: MATCH Periods",
+      "excerpt": "During AUTO, ROBOTS operate without DRIVE TEAM control. ROBOTS score SCORING ELEMENTS, may leave their ROBOT STARTING LINE and retrieve additional SCORING ELEMENTS, and may climb their TOWER."
+    }
+  },
+  {
+    "id": 14,
+    "question": "Is the field the same size as it has been in the past?",
+    "options": [
+      "No",
+      "Yes"
+    ],
+    "correct": 0,
+    "explanation": "No - the 2026 field dimensions changed from 2025. The 2025 field was ~26'5\" x 57'7\", while 2026 is ~26'6\" x 54'3\".",
+    "category": "Field",
+    "citation": {
+      "rule": "N/A",
+      "section": "Section 5.2: FIELD",
+      "excerpt": "Each FIELD for REBUILT is an approximately 317.7in (~8.07m) by 651.2in (~16.54m) carpeted area. Compare to 2025: approximately 26 ft. 5 in. by 57 ft. 6⅞ in."
+    }
+  },
+  {
+    "id": 15,
+    "question": "What is the primary task during TELEOP?",
+    "options": [
+      "Autonomous navigation",
+      "Scoring FUEL into alternating active/inactive HUBs",
+      "Only defending",
+      "Setting up starting configuration"
+    ],
+    "correct": 1,
+    "explanation": "During TELEOP, drivers control robots to score FUEL into HUBS that alternate between active and inactive during ALLIANCE SHIFTS.",
+    "category": "Field",
+    "citation": {
+      "rule": "N/A",
+      "section": "Section 6.4: MATCH Periods",
+      "excerpt": "During TELEOP, DRIVERS remotely operate ROBOTS to retrieve and score SCORING ELEMENTS. HUB statuses alternate between active and inactive during ALLIANCE SHIFTS."
+    }
+  },
+  {
+    "id": 16,
+    "question": "What are the scoring locations for FUEL?",
+    "options": [
+      "OUTPOST AREA, HUB, TOWER",
+      "THE STANDS, DEPOT",
+      "HUB only",
+      "BUMP, TOWER"
+    ],
+    "correct": 2,
+    "explanation": "FUEL is only scored in the HUB. Other field elements serve different purposes.",
+    "category": "Field",
+    "citation": {
+      "rule": "N/A",
+      "section": "Table 6-4: REBUILT point values",
+      "excerpt": "FUEL scored in an active HUB: 1 point (AUTO and TELEOP). FUEL scored in an inactive HUB: 0 points."
+    }
+  },
+  {
+    "id": 17,
+    "question": "How many RUNGS are on the TOWER?",
+    "options": [
+      "6",
+      "7",
+      "3",
+      "2"
+    ],
+    "correct": 2,
+    "explanation": "The TOWER has 3 RUNGS: LOW RUNG (27in), MID RUNG (45in), and HIGH RUNG (63in).",
+    "category": "Field",
+    "citation": {
+      "rule": "N/A",
+      "section": "Section 5.8: TOWER",
+      "excerpt": "The UPRIGHTS hold three horizontal RUNGS: LOW RUNG at 27.0in, MID RUNG at 45.0in, and HIGH RUNG at 63.0in from the floor."
+    }
+  },
+  {
+    "id": 18,
+    "question": "How tall is the space underneath each TRENCH arm?",
+    "options": [
+      "22.25in",
+      "30.0in",
+      "50.34in",
+      "40.25in"
+    ],
+    "correct": 0,
+    "explanation": "The space underneath each TRENCH arm is 22.25 inches tall.",
+    "category": "Field",
+    "citation": {
+      "rule": "N/A",
+      "section": "Section 5.6: TRENCH",
+      "excerpt": "The space underneath each TRENCH arm is 50.34in (1.279m) wide, 22.25in (56.52cm) tall."
+    }
+  },
+  {
+    "id": 19,
+    "question": "How long is a full match?",
+    "options": [
+      "2 minutes 30 seconds",
+      "2 minutes 40 seconds",
+      "3 minutes",
+      "2 minutes and 15 seconds"
+    ],
+    "correct": 1,
+    "explanation": "REBUILT matches are 2 minutes and 40 seconds total: 20 seconds AUTO + 2 minutes 20 seconds TELEOP.",
+    "category": "Matchplay",
+    "citation": {
+      "rule": "N/A",
+      "section": "Section 6.4: MATCH Periods",
+      "excerpt": "The first period is 20 seconds (AUTO). The second period is 2 minutes and 20 seconds (TELEOP). Total: 2:40."
+    }
+  },
+  {
+    "id": 20,
+    "question": "What periods/shifts are in a match? (Select the option with all correct answers)",
+    "options": [
+      "Autonomous, Shift 1-4, End Game",
+      "Autonomous, Transition, Shift 1-4, End Game",
+      "Group dance party, Scuba Diving, Dig",
+      "Autonomous only"
+    ],
+    "correct": 1,
+    "explanation": "Match has: Autonomous, Transition Shift, Shift 1, Shift 2, Shift 3, Shift 4, and End Game.",
+    "category": "Matchplay",
+    "citation": {
+      "rule": "N/A",
+      "section": "Table 6-2: MATCH SHIFTS",
+      "excerpt": "Periods include: AUTO (20s), TRANSITION SHIFT (10s), SHIFT 1 (25s), SHIFT 2 (25s), SHIFT 3 (25s), SHIFT 4 (25s), END GAME (30s)."
+    }
+  },
+  {
+    "id": 21,
+    "question": "During which timeframes are both HUBs active?",
+    "options": [
+      "AUTO, Shift 1, End Game",
+      "AUTO, Transition, End Game",
+      "Only End Game",
+      "Always"
+    ],
+    "correct": 1,
+    "explanation": "Both HUBS are active during AUTO, TRANSITION SHIFT, and END GAME. During the 4 ALLIANCE SHIFTS, they alternate.",
+    "category": "Matchplay",
+    "citation": {
+      "rule": "N/A",
+      "section": "Section 6.4.1: HUB Status",
+      "excerpt": "Both ALLIANCE HUBS are active during AUTO, the TRANSITION SHIFT, and END GAME."
+    }
+  },
+  {
+    "id": 22,
+    "question": "How long is the Autonomous period?",
+    "options": [
+      "30 seconds",
+      "20 seconds",
+      "15 seconds",
+      "5 minutes"
+    ],
+    "correct": 1,
+    "explanation": "AUTO is 20 seconds long (timer shows 0:20 to 0:00).",
+    "category": "Matchplay",
+    "citation": {
+      "rule": "N/A",
+      "section": "Table 6-2: MATCH SHIFTS",
+      "excerpt": "AUTO period: 20 Seconds, Timer Values: 0:20 – 0:00"
+    }
+  },
+  {
+    "id": 23,
+    "question": "How many seconds are remaining in the match when the Endgame Match Sound plays?",
+    "options": [
+      "40 seconds",
+      "15 seconds",
+      "30 seconds",
+      "20 seconds"
+    ],
+    "correct": 2,
+    "explanation": "The END GAME sound plays at 30 seconds remaining (when END GAME period starts).",
+    "category": "Matchplay",
+    "citation": {
+      "rule": "N/A",
+      "section": "Table 6-2: MATCH SHIFTS",
+      "excerpt": "END GAME: 30 Seconds, Timer Values: 0:30 – 0:00"
+    }
+  },
+  {
+    "id": 24,
+    "question": "How many points does scoring FUEL in an ACTIVE HUB give you in AUTO?",
+    "options": [
+      "0 points",
+      "1 point",
+      "2 points",
+      "3 points"
+    ],
+    "correct": 1,
+    "explanation": "FUEL scored in an active HUB is worth 1 point in both AUTO and TELEOP.",
+    "category": "Matchplay",
+    "citation": {
+      "rule": "N/A",
+      "section": "Table 6-4: REBUILT point values",
+      "excerpt": "FUEL scored in an active HUB: 1 point (AUTO), 1 point (TELEOP)"
+    }
+  },
+  {
+    "id": 25,
+    "question": "How many points does a robot earn for TOWER LEVEL 1 in AUTO?",
+    "options": [
+      "10 points",
+      "15 points",
+      "20 points",
+      "30 points"
+    ],
+    "correct": 1,
+    "explanation": "TOWER LEVEL 1 is worth 15 points in AUTO and 10 points in TELEOP.",
+    "category": "Matchplay",
+    "citation": {
+      "rule": "N/A",
+      "section": "Table 6-4: REBUILT point values",
+      "excerpt": "TOWER: Each ROBOT at LEVEL 1: 15 points (AUTO), 10 points (TELEOP)"
+    }
+  },
+  {
+    "id": 26,
+    "question": "How many points is TOWER LEVEL 3 worth?",
+    "options": [
+      "10 points",
+      "15 points",
+      "20 points",
+      "30 points"
+    ],
+    "correct": 3,
+    "explanation": "TOWER LEVEL 3 is worth 30 points (available in both AUTO and TELEOP).",
+    "category": "Matchplay",
+    "citation": {
+      "rule": "N/A",
+      "section": "Table 6-4: REBUILT point values",
+      "excerpt": "TOWER: Each ROBOT at LEVEL 3: 30 points"
+    }
+  },
+  {
+    "id": 27,
+    "question": "What tasks can a HUMAN PLAYER perform during the match?",
+    "options": [
+      "Open CHUTE + Throw FUEL from OUTPOST",
+      "Open CHUTE + Climb TOWER",
+      "Throw FUEL from OUTPOST + Operate robot",
+      "Climb TOWER + Operate robot"
+    ],
+    "correct": 0,
+    "explanation": "HUMAN PLAYERS can BOTH open the CHUTE to release FUEL AND throw FUEL from the OUTPOST AREA (per G425). They cannot climb the TOWER or operate the robot.",
+    "category": "Matchplay",
+    "citation": {
+      "rule": "G425",
+      "section": "Section 7: Game Rules",
+      "excerpt": "G425: FUEL may only be introduced to the FIELD by a HUMAN PLAYER in the following ways: A. through the CHUTE, B. through the bottom opening in the OUTPOST, or C. thrown from the OUTPOST AREA."
+    }
+  },
+  {
+    "id": 28,
+    "question": "6328 is on the BLUE alliance. The BLUE alliance scored the most FUEL points in AUTO. Which alliance will have their HUB active during SHIFT 1?",
+    "options": [
+      "BLUE",
+      "RED",
+      "Both",
+      "Neither"
+    ],
+    "correct": 1,
+    "explanation": "The alliance that scores MORE FUEL in AUTO has their HUB set INACTIVE for SHIFT 1. So if BLUE scored more, RED's HUB is active in SHIFT 1.",
+    "category": "Matchplay",
+    "citation": {
+      "rule": "N/A",
+      "section": "Section 6.4.1: HUB Status / Table 6-3",
+      "excerpt": "The ALLIANCE that scores the most FUEL during AUTO will have their HUB set to inactive for SHIFT 1 while their opponent's HUB will be active."
+    }
+  },
+  {
+    "id": 29,
+    "question": "Which alliance's HUB is active at the END of SHIFT 1?",
+    "options": [
+      "RED",
+      "BLUE",
+      "Both",
+      "Neither"
+    ],
+    "correct": 0,
+    "explanation": "If BLUE scored more in AUTO, RED's HUB was active throughout SHIFT 1. At the end of SHIFT 1, RED's HUB is still active (it switches at the START of SHIFT 2).",
+    "category": "Matchplay",
+    "citation": {
+      "rule": "N/A",
+      "section": "Section 6.4.1: HUB Status",
+      "excerpt": "HUB statuses will alternate at the start of each following ALLIANCE SHIFT. The HUB that was active during SHIFT 1 remains active until SHIFT 2 begins."
+    }
+  },
+  {
+    "id": 30,
+    "question": "If both alliances score the same number of FUEL in AUTO, how is the SHIFT-order determined?",
+    "options": [
+      "RED always goes first",
+      "BLUE always goes first",
+      "Both are active",
+      "Randomly selected by FMS"
+    ],
+    "correct": 3,
+    "explanation": "If both ALLIANCES score the same FUEL in AUTO, FMS randomly selects an ALLIANCE for the HUB status order.",
+    "category": "Matchplay",
+    "citation": {
+      "rule": "N/A",
+      "section": "Section 6.4.1: HUB Status",
+      "excerpt": "If both ALLIANCES score the same number of FUEL during AUTO, the FMS will randomly select an ALLIANCE and use its HUB status order for the ALLIANCE SHIFTS during the MATCH."
+    }
+  },
+  {
+    "id": 31,
+    "question": "What does a pulsing alliance-colored HUB light mean during a match?",
+    "options": [
+      "2 seconds before deactivation",
+      "3 seconds before deactivation",
+      "5 seconds before deactivation",
+      "HUB is active"
+    ],
+    "correct": 1,
+    "explanation": "A pulsing ALLIANCE-colored light indicates HUB deactivation warning - starts 3 seconds before deactivation.",
+    "category": "Matchplay",
+    "citation": {
+      "rule": "N/A",
+      "section": "Table 5-3: HUB Lighting",
+      "excerpt": "ALLIANCE color pulsing: HUB deactivation warning. Starts 3 seconds before and continues until deactivation."
+    }
+  },
+  {
+    "id": 32,
+    "question": "It is illegal to score in an inactive HUB.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": 0,
+    "explanation": "FALSE - It is NOT prohibited to score in an inactive HUB, but FUEL scored there earns 0 points, making it strategically pointless.",
+    "category": "Matchplay",
+    "citation": {
+      "rule": "N/A",
+      "section": "Table 6-4: REBUILT point values",
+      "excerpt": "FUEL scored in an inactive HUB: 0 points (no penalty for scoring, just no points awarded)"
+    }
+  },
+  {
+    "id": 33,
+    "question": "After AUTO or TELEOP end, how long are balls still counted?",
+    "options": [
+      "5 seconds",
+      "2 seconds",
+      "3 seconds",
+      "Immediately stops"
+    ],
+    "correct": 2,
+    "explanation": "Assessment of FUEL scored in the HUB continues for 3 seconds after the timer displays 0:00.",
+    "category": "Matchplay",
+    "citation": {
+      "rule": "N/A",
+      "section": "Section 6.5: Scoring",
+      "excerpt": "Assessment of FUEL scored in the HUB continues for up to 3 seconds after the ARENA timer displays 0:00 following AUTO and TELEOP."
+    }
+  },
+  {
+    "id": 34,
+    "question": "What is the consequence if a robot fully supports another robot's weight on the tower?",
+    "options": [
+      "Yellow Card",
+      "The robot loses all TOWER points for the match",
+      "Red Card",
+      "The supported robot is ineligible for TOWER points for the rest of the match"
+    ],
+    "correct": 3,
+    "explanation": "Per G414, if a robot supports another's weight on the TOWER, it loses TOWER points for the rest of the match.",
+    "category": "Matchplay",
+    "citation": {
+      "rule": "G414",
+      "section": "Section 7: Game Rules",
+      "excerpt": "G414: A ROBOT may not support the weight of an ALLIANCE partner ROBOT while that partner is on or climbing the TOWER. Violation: The supporting ROBOT is ineligible for TOWER points."
+    }
+  },
+  {
+    "id": 35,
+    "question": "What is the diameter of FUEL?",
+    "options": [
+      "15 inches",
+      "10 cm",
+      "12 cm",
+      "15 cm"
+    ],
+    "correct": 3,
+    "explanation": "FUEL diameter is 5.91 inches, which equals 15.0 cm.",
+    "category": "Game Pieces",
+    "citation": {
+      "rule": "N/A",
+      "section": "Section 5.10.1: FUEL",
+      "excerpt": "A FUEL is a 5.91in (15.0cm) diameter, high density foam ball."
+    }
+  },
+  {
+    "id": 36,
+    "question": "How many FUEL are there starting on the field (not including preloads)?",
+    "options": [
+      "504",
+      "492",
+      "389",
+      "600"
+    ],
+    "correct": 0,
+    "explanation": "Without preloads: 24 per DEPOT (48) + 24 per OUTPOST (48) + up to 408 in NEUTRAL ZONE = 504 total.",
+    "category": "Game Pieces",
+    "citation": {
+      "rule": "N/A",
+      "section": "Section 6.3.4: SCORING ELEMENT Arrangement",
+      "excerpt": "24 FUEL in each DEPOT, 24 in each OUTPOST CHUTE, remaining 360-408 in NEUTRAL ZONE (depending on preloads). Maximum non-preloaded: 48+48+408=504."
+    }
+  },
+  {
+    "id": 37,
+    "question": "How many game pieces can you hold at a time in REBUILT?",
+    "options": [
+      "8",
+      "Infinity",
+      "1",
+      "15"
+    ],
+    "correct": 1,
+    "explanation": "Unlike some past games, REBUILT has no limit on FUEL CONTROL - robots may control any number of FUEL.",
+    "category": "Game Pieces",
+    "citation": {
+      "rule": "N/A",
+      "section": "Section 5.10: SCORING ELEMENTS",
+      "excerpt": "In REBUILT, a ROBOT may CONTROL any number of SCORING ELEMENTS after the start of the MATCH."
+    }
+  },
+  {
+    "id": 38,
+    "question": "How many FUEL do you need to score in the hub to get the ENERGIZED RP?",
+    "options": [
+      "300",
+      "360",
+      "100",
+      "250"
+    ],
+    "correct": 2,
+    "explanation": "ENERGIZED RP requires 100 FUEL scored in the HUB at Regional/District events.",
+    "category": "Game Pieces",
+    "citation": {
+      "rule": "N/A",
+      "section": "Table 6-5: REBUILT BONUS RP thresholds",
+      "excerpt": "ENERGIZED RP threshold: 100 FUEL (Regional/District Events)"
+    }
+  },
+  {
+    "id": 39,
+    "question": "How many FUEL do you need to score in the hub to get the SUPERCHARGED RP?",
+    "options": [
+      "360",
+      "100",
+      "300",
+      "123"
+    ],
+    "correct": 0,
+    "explanation": "SUPERCHARGED RP requires 360 FUEL scored in the HUB - significantly more than ENERGIZED RP.",
+    "category": "Game Pieces",
+    "citation": {
+      "rule": "N/A",
+      "section": "Table 6-5: REBUILT BONUS RP thresholds",
+      "excerpt": "SUPERCHARGED RP threshold: 360 FUEL (Regional/District Events)"
+    }
+  },
+  {
+    "id": 40,
+    "question": "How many tower points do you have to score to earn the TRAVERSAL RP?",
+    "options": [
+      "100",
+      "360",
+      "50",
+      "60"
+    ],
+    "correct": 2,
+    "explanation": "TRAVERSAL RP requires 50 TOWER points during the match (e.g., 2 robots at LEVEL 3 = 60 points would earn it).",
+    "category": "Game Pieces",
+    "citation": {
+      "rule": "N/A",
+      "section": "Table 6-5: REBUILT BONUS RP thresholds",
+      "excerpt": "TRAVERSAL RP threshold: 50 TOWER points (Regional/District Events)"
+    }
+  }
+]
